@@ -357,10 +357,6 @@
      display: block;
  }
 
- .bss_pager #bx-pager a figure .img-circle.normal:hover {
-     display: none;
- }
-
  .bss_pager #bx-pager a figure .img-circle.hover {
      background-color: #292929;
      border: 2px solid #feec13;
@@ -369,10 +365,6 @@
      width: 75px;
      margin-left: auto;
      margin-right: auto;
- }
-
- .bss_pager #bx-pager a figure .img-circle.hover:hover {
-     display: block;
  }
 
  .bss_pager #bx-pager a figure .img-circle {
@@ -403,7 +395,31 @@
      line-height: 23px;
  }
 
- /* Welcome */
+ .bss_pager #bx-pager a figure .img-circle.normal {
+     display: block;
+     background-color: #feec13;
+     transition: background-color 0.3s ease;
+ }
+
+ .bss_pager #bx-pager a figure .img-circle.hover {
+     background-color: #000;
+     border: 2px solid transparent;
+     display: none;
+     height: 75px;
+     width: 75px;
+     margin-left: auto;
+     margin-right: auto;
+     transition: background-color 0.3s ease, border-color 0.3s ease;
+ }
+
+ .bss_pager #bx-pager a:hover figure .img-circle.normal {
+     display: none;
+ }
+
+ .bss_pager #bx-pager a:hover figure .img-circle.hover {
+     display: block;
+     border-color: #feec13;
+ }
 
  .main {
      display: block;
