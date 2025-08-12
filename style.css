@@ -1138,6 +1138,31 @@
      }
  }
 
+ @media (max-width: 394px) {
+
+     .navbar-header {
+         justify-content: start;
+     }
+
+     .left i {
+         top: 78px !important;
+         font-size: 30px !important;
+     }
+
+     .right i {
+         top: -152px !important;
+         font-size: 30px !important;
+     }
+
+     #return-to-top {
+         right: 15px;
+     }
+
+     .footer-button-1 {
+         right: 18px;
+     }
+ }
+
  @media (max-width: 360px) {
 
      .hamburger {
